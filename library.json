@@ -1,0 +1,31 @@
+{
+	"name": "RAK14000_EPD",
+	"version": "1.0.0",
+	"keywords": [
+		"RAK14000",
+		"EPD",
+		"RAKWireless",
+		"WisBlock"
+	],
+	"description": "RAKWireless library for the RAK14000 EPD module",
+	"frameworks": [
+		"arduino"
+	],
+	"platforms": [
+		"*"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"email": "bernd.giesecke@rakwireless.com",
+			"url": "https://www.rakwireless.com",
+			"maintainer": true,
+			"name": "Bernd Giesecke"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/beegee-tokyo/RAKwireless_RAK14000_EPD_2_13"
+	},
+	"homepage": "https://github.com/beegee-tokyo/RAKwireless_RAK14000_EPD_2_13"
+}

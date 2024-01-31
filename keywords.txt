@@ -1,0 +1,53 @@
+#######################################
+# Syntax Coloring Map For Energy Saving
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EPD_213	KEYWORD1
+Paint	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Init	KEYWORD2
+SendCommand	KEYWORD2
+SendData	KEYWORD2
+WaitUntilIdle	KEYWORD2
+SetWindows	KEYWORD2
+SetCursor	KEYWORD2
+Lut	KEYWORD2
+Reset	KEYWORD2
+Clear	KEYWORD2
+Display	KEYWORD2
+DisplayPartBaseImage	KEYWORD2
+DisplayPart	KEYWORD2
+ClearPart	KEYWORD2
+Sleep	KEYWORD2
+Clear	KEYWORD2
+GetWidth	KEYWORD2
+SetWidth	KEYWORD2
+GetHeight	KEYWORD2
+SetHeight	KEYWORD2
+GetRotate	KEYWORD2
+SetRotate	KEYWORD2
+GetImage	KEYWORD2
+DrawAbsolutePixel	KEYWORD2
+DrawPixel	KEYWORD2
+DrawCharAt	KEYWORD2
+DrawStringAt	KEYWORD2
+DrawLine	KEYWORD2
+DrawHorizontalLine	KEYWORD2
+DrawVerticalLine	KEYWORD2
+DrawRectangle	KEYWORD2
+DrawFilledRectangle	KEYWORD2
+DrawCircle	KEYWORD2
+DrawFilledCircle	KEYWORD2
+drawBitmap	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
