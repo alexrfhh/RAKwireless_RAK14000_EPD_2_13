@@ -9,8 +9,12 @@
  *
  */
 #include <Arduino.h>
-#include <rak14000.h>
+//#include <rak14000.h>
 #include "image.h"
+#include "epdif.h"
+#include "epdpaint.h"
+#include "epdfonts.h"
+#include "epd2in13.h"
 
 /** Power control for RAK14000 */
 #define POWER_ENABLE WB_IO2
@@ -23,8 +27,8 @@ EPD_213_BW epd;
 Paint paint(image, 122, 250);
 
 /** Color definitions */
-uint16_t bg_color = UNCOLORED;
-uint16_t txt_color = COLORED;
+uint16_t bg_color = 1;
+uint16_t txt_color = 0;
 
 // Forward declarations
 void clear_rak14000(void);
@@ -103,7 +107,7 @@ void clear_rak14000(void)
 	paint.SetRotate(ROTATE_270);
 	epd.Init(FULL);
 	// epd.Clear();
-	paint.Clear(UNCOLORED);
+	paint.Clear(1);
 }
 
 /**
@@ -117,5 +121,5 @@ void rak14000_text(int16_t x, int16_t y, char *text)
 {
 	sFONT *use_font;
 	use_font = &Font20;
-	paint.DrawStringAt(x, y, text, use_font, COLORED);
+	paint.DrawStringAt(x, y, text, use_font, 0);
 }
